@@ -76,9 +76,6 @@ class BurgerBuilder extends Component {
     purchaseCancelHandler = () => {
         this.setState({puchasing: false});
     }
-    // purchaseCancelHandler = () => {
-    //     this.setState({purchasing: false});
-    // }
     render(){
         const disabledinfo = {
             ...this.state.ingredients
