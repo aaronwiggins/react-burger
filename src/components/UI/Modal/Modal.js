@@ -5,7 +5,7 @@ import Backdrop from '../Backdrop/Backdrop';
 
 const modal = (props) => (
     <Aux>
-        <Backdrop potato={props.modalClosed} show={props.show}/>
+        <Backdrop clicked={props.modalClosed} show={props.show}/>
         <div 
             style={{
                 transform: props.show ? 'translateY(0)' : 'translateY(-100vh)',
